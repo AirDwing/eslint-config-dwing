@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dwing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于AirBnb Javascript修改的ESLint配置",
   "main": "index.js",
   "repository": "git@github.com:AirDwing/eslint-config-dwing.git",
