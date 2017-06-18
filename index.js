@@ -6,7 +6,7 @@ module.exports = {
   rules: {
     quotes: [2, 'single'],
     semi: 2,
-    'arrow-body-style': [1, 'as-needed'],
+    'arrow-body-style': [2, 'as-needed'],
     'comma-dangle': [2, 'never'],
     'consistent-return': 1,
     'max-len': [1, 150, 2],
@@ -16,9 +16,9 @@ module.exports = {
       groups: [['&', '|', '^', '~', '<<', '>>', '>>>'], ['&&', '||']],
       allowSamePrecedence: true
     }],
-    'no-param-reassign': [1, { props: false }],
+    'no-param-reassign': 2,
     'no-underscore-dangle': [2, { allowAfterThis: true, allowAfterSuper: false }],
-    'object-curly-spacing': 0
+    'object-curly-spacing': 2
   },
   extends: 'airbnb-base'
 };
