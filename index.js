@@ -6,6 +6,8 @@ module.exports = {
   rules: {
     quotes: [2, 'single'],
     semi: 2,
+    'object-curly-newline': 0,
+    'no-bitwise': 0,
     'arrow-body-style': [2, 'as-needed'],
     'comma-dangle': [2, 'never'],
     'consistent-return': 1,
